@@ -6,10 +6,11 @@ spring:
     config:
       server:
         git:
-          uri:
-          searchPath: config-data
+          uri: https://github.com/andres187/academy-cloud.git
+          searchPaths: config-data
           username: ${GIT_USER}
           password: ${GIT_PASSWORD}
+          default-label: "develop"
   security:
     user:
       name: root
