@@ -13,7 +13,7 @@ server:
       gateway:
         discovery:
           locator:
-            enable: true
+            enabled: true
         routes:
           - id: customer-service
             uri: lb://customer-service
